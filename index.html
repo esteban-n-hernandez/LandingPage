@@ -119,7 +119,7 @@
             margin: 0;
         }
 
-        .navbar-collapse{
+        .navbar-collapse {
             text-align: center;
         }
     </style>
@@ -132,7 +132,6 @@
         <div class="navbar-logo">
             <img src="img/logo-navbar.png" alt="Logo" style="height:80px;">
         </div>
-
         <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
                 aria-controls="nav" aria-expanded="false">
             <span class="navbar-toggler-icon"></span>
@@ -152,9 +151,9 @@
 <!-- HERO -->
 <section id="hero">
     <div class="container">
-        <h1>Encontra tu proxima propiedad</h1>
-        <p>Asesoramiento profesional en compra, venta y alquileres de propiedades.</p>
-        <button class="btn-main mt-3">Conocer más</button>
+        <h1>Encontrá tu próxima propiedad en el Alto Valle</h1>
+        <p>Casas, terrenos, chacras y oportunidades reales en General Roca, Cipolletti y Neuquén.</p>
+        <button class="btn-main mt-3" href="#contacto">Consulta ahora</button>
     </div>
 </section>
 
@@ -245,7 +244,7 @@
             </button>
         </div>
     </div>
-</section
+</section>
 
 <!-- CONTACTO -->
 <section id="contacto" class="py-5">
@@ -256,13 +255,36 @@
             <div class="col-md-6">
                 <form>
                     <div class="mb-3">
-                        <label class="form-label">Nombre</label>
+                        <label class="form-label">Nombre y apellido</label>
                         <input type="text" class="form-control"/>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Telefono</label>
+                        <input type="number" class="form-control"/>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Email</label>
                         <input type="email" class="form-control"/>
                     </div>
+                    <div class="mb-3">
+                        <label class="form-label">Ciudad</label>
+                        <input type="text" class="form-control"/>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Provincia</label>
+                        <input type="text" class="form-control"/>
+                    </div>
+                    <div class="mb-3">
+                        <label for="selectMenu" class="form-label">Select Option</label>
+                        <select class="form-select" id="selectMenu" aria-label="Default select example">
+                            <option selected>Que tipo de propiedad buscas</option>
+                            <option value="1">Casa</option>
+                            <option value="2">Casa grande</option>
+                            <option value="3">Casa mas grande</option>
+                        </select>
+                    </div>
+
+
                     <div class="mb-3">
                         <label class="form-label">Mensaje</label>
                         <textarea class="form-control" rows="4"></textarea>
