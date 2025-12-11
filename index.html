@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Landing Page - Empresa</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -10,13 +10,16 @@
         .navbar-brand img {
             height: 48px;
         }
+
         .navbar {
             background-color: #ffffff;
         }
+
         .navbar-nav .nav-link {
             color: #000 !important;
             font-weight: 500;
         }
+
         .navbar-nav .nav-link:hover {
             color: #cc0000 !important;
         }
@@ -24,20 +27,23 @@
         /* HERO */
         #hero {
             padding: 120px 0;
-            background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url('hero.jpg');
+            background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('hero.jpg');
             background-size: cover;
             background-position: center;
             text-align: center;
         }
+
         #hero h1 {
             font-size: 3.2rem;
             color: #000;
             font-weight: 700;
         }
+
         #hero p {
             font-size: 1.2rem;
             color: #333;
         }
+
         .btn-main {
             background-color: #cc0000;
             color: #fff;
@@ -46,6 +52,7 @@
             font-size: 1.1rem;
             border: none;
         }
+
         .btn-main:hover {
             background-color: #a30000;
         }
@@ -55,16 +62,19 @@
             color: #000;
             font-weight: 700;
         }
+
         .service-box {
             padding: 30px;
             border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
             transition: 0.3s;
             background-color: #fff;
         }
+
         .service-box:hover {
             transform: translateY(-5px);
         }
+
         .service-box h4 {
             color: #cc0000;
             font-weight: 600;
@@ -75,6 +85,7 @@
             background-color: #f9f9f9;
             padding: 80px 0;
         }
+
         #about h2 {
             font-weight: 700;
             color: #000;
@@ -85,11 +96,13 @@
             font-weight: 700;
             color: #000;
         }
+
         .btn-contacto {
             background-color: #cc0000;
             border: none;
             color: #fff;
         }
+
         .btn-contacto:hover {
             background-color: #a30000;
         }
@@ -100,6 +113,7 @@
             padding: 24px 0;
             text-align: center;
         }
+
         footer p {
             color: #fff;
             margin: 0;
@@ -115,14 +129,16 @@
             <img src="img/logo.png" alt="Logo" style="height:150px;">
         </div>
 
-        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false">
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+                aria-controls="nav" aria-expanded="false">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="nav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="#hero">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
                 <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="#servicios">Nuestros servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#clientes">Clientes</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
             </ul>
         </div>
@@ -132,8 +148,8 @@
 <!-- HERO -->
 <section id="hero">
     <div class="container">
-        <h1>Soluciones Profesionales para tu Negocio</h1>
-        <p>Brindamos servicios de alta calidad enfocados en el crecimiento de tu empresa.</p>
+        <h1>Encontra tu proxima propiedad</h1>
+        <p>Asesoramiento profesional en compra, venta y alquileres de propiedades.</p>
         <button class="btn-main mt-3">Conocer más</button>
     </div>
 </section>
@@ -144,10 +160,12 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <h2>Sobre Nosotros</h2>
-                <p>Somos una empresa comprometida con brindar soluciones innovadoras y eficientes. Nuestro equipo está orientado a resultados, con un enfoque profesional y cercano al cliente.</p>
+                <p>Entendemos que comprar, vender o alquilar una propiedad es una de las decisiones más importantes. Por
+                    eso, nuestro compromiso es brindarte tranquilidad, asesoramiento experto y resultados que superen
+                    tus expectativas, siempre con honestidad y profesionalismo.</p>
             </div>
             <div class="col-md-6">
-                <img src="about.jpg" class="img-fluid rounded shadow" alt="Sobre nosotros">
+                <img src="img/logo.png" class="img-fluid rounded shadow" alt="Sobre nosotros">
             </div>
         </div>
     </div>
@@ -181,20 +199,49 @@
     </div>
 </section>
 
-<!-- ABOUT -->
-<section id="about">
+<!-- CLIENTES -->
+<section id="clientes" class="py-5 bg-light">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <h2>Sobre Nosotros</h2>
-                <p>Somos una empresa comprometida con brindar soluciones innovadoras y eficientes. Nuestro equipo está orientado a resultados, con un enfoque profesional y cercano al cliente.</p>
+        <h2 class="text-center mb-5">Clientes</h2>
+
+
+        <div id="carouselClientes" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center gap-5">
+                        <img src="img/logo.png" class="img-fluid" style="max-height:120px;" alt="Cliente 1">
+                        <img src="img/logo.png" class="img-fluid" style="max-height:120px;" alt="Cliente 2">
+                        <img src="img/logo.png" class="img-fluid" style="max-height:120px;" alt="Cliente 3">
+                    </div>
+                </div>
+
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center gap-5">
+                        <img src="img/logo.png" class="img-fluid" style="max-height:120px;" alt="Cliente 4">
+                        <img src="img/logo.png" class="img-fluid" style="max-height:120px;" alt="Cliente 5">
+                        <img src="img/logo.png" class="img-fluid" style="max-height:120px;" alt="Cliente 6">
+                    </div>
+                </div>
+
+
             </div>
-            <div class="col-md-6">
-                <img src="about.jpg" class="img-fluid rounded shadow" alt="Sobre nosotros">
-            </div>
+
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselClientes" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselClientes" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
         </div>
     </div>
-</section>
+</section
 
 <!-- CONTACTO -->
 <section id="contacto" class="py-5">
@@ -206,11 +253,11 @@
                 <form>
                     <div class="mb-3">
                         <label class="form-label">Nombre</label>
-                        <input type="text" class="form-control" />
+                        <input type="text" class="form-control"/>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Email</label>
-                        <input type="email" class="form-control" />
+                        <input type="email" class="form-control"/>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Mensaje</label>
