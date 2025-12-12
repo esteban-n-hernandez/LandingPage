@@ -292,27 +292,30 @@
 
                     <div class="mb-3">
                         <label class="form-label">Ciudad</label>
-                        <input type="text" id="ciudad" class="form-control"/>
+                        <input type="text" id="ciudad" class="form-control" required/>
                     </div>
 
                     <div class="mb-3">
                         <label class="form-label">Provincia</label>
-                        <input type="text" id="provincia" class="form-control"/>
+                        <input type="text" id="provincia" class="form-control" required/>
                     </div>
 
                     <div class="mb-3">
                         <label for="selectMenu" class="form-label">Qué tipo de propiedad buscás</label>
                         <select class="form-select" id="tipo" aria-label="Default select example">
                             <option selected value="">Seleccione</option>
-                            <option value="Casa">Casa</option>
-                            <option value="Casa grande">Casa grande</option>
-                            <option value="Casa más grande">Casa más grande</option>
+                            <option value="Terrenos">Terrenos</option>
+                            <option value="Casas">Casas</option>
+                            <option value="Casa apta crédito">Casa apta crédito</option>
+                            <option value="Chacras">Chacras</option>
+                            <option value="Campos">Campos</option>
+                            <option value="Locales comerciales">Locales comerciales</option>
                         </select>
                     </div>
 
                     <div class="mb-3">
                         <label class="form-label">Mensaje</label>
-                        <textarea id="mensaje" class="form-control" rows="4"></textarea>
+                        <textarea id="mensaje" class="form-control" rows="4" required></textarea>
                     </div>
 
                     <button class="btn btn-contacto w-100">Enviar</button>
