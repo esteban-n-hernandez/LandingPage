@@ -16,13 +16,17 @@
     color: #cc0000 !important;
 }
 
-body {
-    padding-top: 300px;
+html, body {
+    height: 100%;
+    margin: 0;
 }
 
 /* HERO */
+
 #hero {
-    padding: 120px 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -102,18 +106,32 @@ body {
     background-color: #a30000;
 }
 
-/* FOOTER */
-footer {
-    background-color: #000;
-    padding: 24px 0;
-    text-align: center;
-}
-
-footer p {
-    color: #fff;
-    margin: 0;
-}
 
 .navbar-collapse {
     text-align: center;
+}
+
+.footer {
+    background-color: #111;
+    padding: 40px 0 25px;
+}
+
+.footer .social-links a {
+    display: inline-block;
+    margin: 0 12px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.footer .social-links img {
+    width: 32px;
+}
+
+.footer .social-links a:hover {
+    transform: translateY(-4px);
+}
+
+.footer-text {
+    color: #aaa;
+    font-size: 0.9rem;
+    margin: 0;
 }
