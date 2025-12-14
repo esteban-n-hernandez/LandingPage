@@ -16,22 +16,23 @@
     color: #cc0000 !important;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-}
 
-/* HERO */
+html, body {
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
 
 #hero {
     height: 100vh;
+    position: relative;
     display: flex;
-    align-items: center;
+    align-items: center;        /* centra vertical */
+    justify-content: center;    /* centra horizontal */
     background-size: cover;
     background-position: center;
-    text-align: center;
+    text-align: center;         /* centra texto */
 }
-
 #hero h1 {
     font-size: 3.2rem;
     color: #000;
