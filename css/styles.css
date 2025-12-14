@@ -16,6 +16,10 @@
     color: #cc0000 !important;
 }
 
+body {
+    padding-top: 300px;
+}
+
 /* HERO */
 #hero {
     padding: 120px 0;
